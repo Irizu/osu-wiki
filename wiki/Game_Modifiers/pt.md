@@ -2,20 +2,22 @@ Um **modificador de dificuldade** é uma das modificações opcionais para jogab
 
 Modificadores de Dificuldade podem ser acessados ao pressionar **"F1"** na seleção de musicas, ou ao clicar no botão "**Mods**" proximo do canto inferior esquerdo da tela.
 
-Note that when multiple mods are applied, the product of the score multipliers is given instead of the sum of them. For example, when Hidden and Flashlight are applied at the same time, they give 1.1872x because (1.06 x 1.12) = 1.1872, rather than (1.06 + 1.12 - 1.00) = 1.18. osu! used to round this number down to the nearest hundredth (0.01), so Hidden and Flashlight together would appear to give a 1.18x multiplier, denying the supposed number round up. Thankfully, a patch corrected this, and now Hidden + Flashlight rounds correctly to 1.19x. <img src="Soloplay8.png" title="fig:osu! List of possible mods" alt="osu! List of possible mods" width="400" />
+Note que quando vários mods são selecionados, o produto dos multiplicadores de pontuação é dado ao invés da sua soma. Por exemplo, quando os mods Hidden e Flashlight são selecionados ao mesmo tempo, é dado 1.1872x no multiplicador de pontuação, por causa que (1.06 x 1.12) = 1.1872, ao invés de (1.06 + 1.12 - 1.00) = 1.18. osu! costumava cortar os números após a segunda casa após a vírgula (0.01), então Hidden e Flashlight juntos aparentavam dar um multiplicador de 1.18x, negando o suposto número com arredondamento para cima. Felizmente um patch corrigiu isso, e agora Hidden + Flashlight é arredondado corretamente 1.19x. 
 
-Difficulty Reduction Mods
+<img src="Soloplay8.png" title="fig:osu! List of possible mods" alt="osu! List of possible mods" width="400" />
+
+Modificadores para a Redução de Dificuldade
 -------------------------
 
-These mods make the game easier at the cost of decreasing the score obtained.
+Esses mods deixam o jogo mais fácil a um custo de diminuir a pontuação obtida.
 
 ### <img src="Easy.png" title="fig:Easy.png" alt="Easy.png" width="69" height="65" /> Easy
 
-***Score multiplier: 0.5***
+***Multiplicador de Pontuação: 0.5***
 
-***"Reduces overall difficulty - larger circles, more forgiving HP drain, less accuracy required."***
+***"Reduz a overall difficulty - Círculos maiores, menor drenagem de HP, menos precisão requerida."***
 
-This mod is intended to lessen the difficulty of beatmaps, at a cost to your score. It increases [circle size](PT:Circle_size "wikilink") while decreasing [approach rate](PT:Approach_rate "wikilink") (AR), [overall difficulty](PT:Overall_difficulty "wikilink") aswell as [life drain](PT:Life_drain "wikilink"); each of these by a huge amount. It also allows 3 "lives"; that is, when the [HP bar](PT:HP_bar "wikilink") is exhausted, the game pauses and it refills up to two times. This restart will stop the song temporary to fill up the HP bar and rhythm hint is the "ready" (depends on skin used). In addition, replays do not show the restart or restored HP, and so if a replay is watched where the player had to use a "life", it will appear as though the player continues to play at 0 HP.
+Esse mod tem como objetivo diminuir a dificuldade dos beatmaps, com uma penalidade em sua pontuação. Ele aumenta o [circle size](PT:Circle_size "wikilink") (CS) enquanto decresce o [approach rate](PT:Approach_rate "wikilink") (AR), também como a [overall difficulty](PT:Overall_difficulty "wikilink") (OD) além do [life drain](PT:Life_drain "wikilink"); cada um desses por uma grande quantidade. Ele também permite 3 "vidas" extras; isso é, quando a [HP bar](PT:HP_bar "wikilink") é drenada completamente, o jogo pausa e a preenche por duas vezes. Esse restart irá parar a música temporariamente para preencher a HP bar, e a dica do ritmo é o "ready" (dependendo da skin usada). Mas, os replays não mostrarão o restart ou a "vida" sendo restaurada, então se o replay é visto por alguem quando o jogador teve de usar uma "vida", aparecerá como se ele continuasse a jogar com o HP em 0.
 
 However, some (if not most) argue that Easy Mode fails to make maps easier to play. They claim that circles become comically large, and AR becomes ridiculously slower. The mod has the potential of making the play area much more cluttered and harder to read, especially on [insane](PT:Insane "wikilink") or approved beatmaps. These points are elaborated upon in [this](http://osu.ppy.sh/forum/viewtopic.php?f=4&t=56606) feature request to improve the mod, by Lybydose.
 
